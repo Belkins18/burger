@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Semibold.ttf');
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('./assets/fonts/Merriweather-Black.ttf');
+}
+
+@import './assets/styles/variables.scss';
+@import './assets/styles/scaffolding';
