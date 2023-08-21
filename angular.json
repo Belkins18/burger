@@ -48,7 +48,8 @@
                   "maximumError": "10kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/burger/"
             },
             "development": {
               "buildOptimizer": false,
