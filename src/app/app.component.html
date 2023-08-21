@@ -71,10 +71,10 @@
 <section class="products" id="products" #products>
   <div class="container products__container">
     <h2 class="products__title">выберите свой бургер</h2>
-    <ul class="products__list card-list">
+    <ul class="products__list card-list" *ngIf="productsData">
       <li class="card-list__item" *ngFor="let product of productsData">
         <div class="card-list__image">
-          <img src="assets/images/burgers/{{product.image}}" alt="{{product.title}}">
+          <img src="{{product.image}}" alt="{{product.title}}">
         </div>
         <div class="card-list__title">{{product.title}}</div>
         <div class="card-list__desc">{{product.text}}</div>
